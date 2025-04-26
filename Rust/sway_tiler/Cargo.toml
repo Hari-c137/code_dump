@@ -1,8 +1,8 @@
 [package]
-name = "autotiling-rs"
+name = "sway_tiler-rs"
 version = "0.1.3"
-authors = ["Jason Nader <jason.nader@protonmail.com>"]
-description = "Autotiling for sway (and possibly i3)"
+authors = ["ClearlyOpaque <hariprasadaji465@gmail.com>"]
+description = "Autotiling for sway"
 edition = "2018"
 
 [dependencies]
