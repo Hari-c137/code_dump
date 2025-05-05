@@ -1,0 +1,10 @@
+to anyone reading this note;
+
+  try to follow the code in this order
+  * stack
+  * queue
+  * postfix
+
+because i wrote this code to be interpeted in that order for easier understading and learning..
+
+if you actually clicked this file before going directly to the code, thank you. - Harry
