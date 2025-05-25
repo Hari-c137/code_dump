@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <ctype.h>
-#define MAX 128
+
+#define MAX 512
 
 typedef struct { int items[MAX]; int top;} Stack;
 
