@@ -1,0 +1,17 @@
+<circuit version="1.1.0-SR1" rev="" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-2" mainComp="false" Show_id="false" Show_Val="false" Pos="-200,-116" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-2" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="MCU" CircId="mega32-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-132,-188" rotation="0" hflip="1" vflip="1" label="mega32-3" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="1 MHz" Program="code/mygits/dump/college/S5/embedded/lab/basic/blink.hex" Auto_Load="false" saveEepr="true" Logic_Symbol="false" Wdt_enabled="false" MainMcu="true" SerialMon="1" />
+
+<item itemtype="Led" CircId="Led-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-8,-20" rotation="90" hflip="1" vflip="1" label="Led-4" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="30 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-212,12" rotation="0" hflip="1" vflip="1" label="Ground-5" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Fixed Voltage-2-outnod" endpinid="mega32-3-RST" pointList="-184,-116,-140,-116" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Led-4-rPin" endpinid="Ground-5-Gnd" pointList="-8,-4,-212,-4" />
+
+<item itemtype="Connector" uid="Connector-9" startpinid="Led-4-lPin" endpinid="mega32-3-PORTC0" pointList="-8,-36,-76,-36" />
+
+</circuit>
