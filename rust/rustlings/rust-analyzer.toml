@@ -1,0 +1,3 @@
+check.command = "clippy"
+check.extraArgs = ["--profile", "test"]
+cargo.targetDir = true

@@ -1,0 +1,9 @@
+day_00 index
+
+00 introduction
+01 Getting started
+  1.1 installation
+  1.2 Hello, Hell!
+  1.3 Hello, cargo
+02 guessing game 
+  02* <placeholder>
